@@ -1,4 +1,4 @@
-package test.RPC_example;
+package test.RPC;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -87,9 +87,6 @@ public class ServerCenter implements Server {
             ObjectOutputStream output = null;
             ObjectInputStream input = null;
             try {
-
-
-
                 // 接收到客户端连接及请求，处理该请求...
                 input = new ObjectInputStream(socket.getInputStream()); //
                 // 因为ObjectInputStream对 发送数据的顺序 严格要求，

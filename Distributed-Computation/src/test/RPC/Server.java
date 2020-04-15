@@ -1,4 +1,4 @@
-package test.RPC_example;
+package test.RPC;
 
 public interface Server {
     public void start() ;

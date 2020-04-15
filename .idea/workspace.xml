@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72dbaf82-307c-47c4-bea4-f49558f7ab89" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aRjvlcnO42fa98Ahtli6XivHD9" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="bank" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Distributed-Computation/src/test/Demo" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\_Fake_AOPBean" />
+      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\RPC" />
+      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\AOPBean" />
+      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\ttest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test._Fake_" />
+      <recent name="test._Fake_AOPBean" />
+      <recent name="test.Demo" />
+      <recent name="test.RPC" />
+      <recent name="test.AOP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\Demo" />
+      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\RPC" />
+      <recent name="D:\idea project\Bank\Distributed-Computation\.idea" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RPCClientTest (1)">
+    <configuration name="RPCClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.RPC.RPCClientTest" />
+      <module name="Distributed-Computation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.DB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RPCClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test._Fake_.RPCClientTest" />
+      <module name="Distributed-Computation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test._Fake_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RPCServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.RPC.RPCServerTest" />
+      <module name="Distributed-Computation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.DB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RPCClientTest" />
+      <item itemvalue="Application.RPCServerTest" />
+      <item itemvalue="Application.RPCClientTest (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RPCClientTest (1)" />
+        <item itemvalue="Application.RPCClientTest" />
+        <item itemvalue="Application.RPCServerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72dbaf82-307c-47c4-bea4-f49558f7ab89" name="Default Changelist" comment="" />
+      <created>1586705532053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586705532053</updated>
+      <workItem from="1586705533380" duration="47000" />
+      <workItem from="1586705962017" duration="369000" />
+      <workItem from="1586779964100" duration="620000" />
+      <workItem from="1586867560972" duration="11728000" />
+      <workItem from="1586913657288" duration="7697000" />
+      <workItem from="1586932394496" duration="140000" />
+      <workItem from="1586933548727" duration="23995000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

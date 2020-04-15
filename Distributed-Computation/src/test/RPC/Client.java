@@ -1,4 +1,4 @@
-package test.RPC_example;
+package test.RPC;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -38,7 +38,6 @@ public class Client {
                         try {
                             //socketaddress:  Ip：端口
                             socket.connect(addr);
-
                             //发送 ：序列化流（对象流）
                             output =new ObjectOutputStream(    socket.getOutputStream()) ;
                             //接口名  、 方法名 ：writeUTF
