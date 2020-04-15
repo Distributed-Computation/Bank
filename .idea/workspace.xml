@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72dbaf82-307c-47c4-bea4-f49558f7ab89" name="Default Changelist" comment="" />
+    <list default="true" id="72dbaf82-307c-47c4-bea4-f49558f7ab89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/Distributed-Computation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/Distributed-Computation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/META-INF/Distributed-Computation.kotlin_module" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aRjvlcnO42fa98Ahtli6XivHD9" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -37,9 +45,10 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="bank" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Distributed-Computation/src/test/Demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.18.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -78,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RPCClientTest (1)">
+  <component name="RunManager" selected="Application.RPCClientTest">
     <configuration name="RPCClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.RPC.RPCClientTest" />
       <module name="Distributed-Computation" />
@@ -121,11 +130,9 @@
     <list>
       <item itemvalue="Application.RPCClientTest" />
       <item itemvalue="Application.RPCServerTest" />
-      <item itemvalue="Application.RPCClientTest (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RPCClientTest (1)" />
         <item itemvalue="Application.RPCClientTest" />
         <item itemvalue="Application.RPCServerTest" />
       </list>
@@ -148,10 +155,26 @@
       <workItem from="1586913657288" duration="7697000" />
       <workItem from="1586932394496" duration="140000" />
       <workItem from="1586933548727" duration="23995000" />
+      <workItem from="1586964173166" duration="68000" />
+      <workItem from="1586964262255" duration="293000" />
+      <workItem from="1586964586397" duration="91000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
