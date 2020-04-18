@@ -14,8 +14,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
-
 import static test.DB.BaseDao.getConnection;
+
+//登入接口实现
 
 public class CheckLoginServiceImpl implements CheckLoginService {
     @Override
@@ -51,8 +52,6 @@ public class CheckLoginServiceImpl implements CheckLoginService {
             return 0;
         }
     }
-   
-
     @Override
     //查看错误次数
     public int check_fail(String name) throws Exception {

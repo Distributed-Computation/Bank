@@ -15,16 +15,18 @@ public class RPCClientTest {
         Scanner in=new Scanner(System.in);
         
         while(loginkey==0){
-            /*System.out.println("输入用户名:");
+            System.out.println("输入用户名:");
             name=in.nextLine();
             System.out.println("输入密码");
             psw=in.nextLine();
             System.out.println("输入结束");
-            System.out.println("验证中.....");*/
+            System.out.println("验证中.....");
             
-            name="gcw";
-            psw="gcw";
+            //把上面输入注释，把下面注释删除，偷懒0V0
+            /*name="gcw";
+            psw="gcw";*/
             
+            //反射
             CheckLoginService service= Client.getRemoteProxyObj(
                     Class.forName("test.Interface.CheckLoginService") ,
                     new InetSocketAddress("127.0.0.1", 9999)) ;

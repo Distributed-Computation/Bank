@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72dbaf82-307c-47c4-bea4-f49558f7ab89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Distributed-Computation/Distributed-Computation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/Distributed-Computation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/CheckLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/CheckLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ClientOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ClientOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ServerCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ServerCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/CheckLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/CheckLoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCClientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCServerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCServerTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCServerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/ServerCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/ServerCenter.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -219,6 +212,7 @@
       <workItem from="1587138303675" duration="2538000" />
       <workItem from="1587192871271" duration="7410000" />
       <workItem from="1587200914130" duration="1079000" />
+      <workItem from="1587202093588" duration="395000" />
     </task>
     <servers />
   </component>
