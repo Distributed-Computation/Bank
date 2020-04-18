@@ -32,13 +32,18 @@ public class CheckLoginServiceImpl implements CheckLoginService {
             stmt.setString(2, password);
             ResultSet rs1 = stmt.executeQuery();
             int fail=i.check_fail(name);
-            if(fail>=3){ return -1; }
+            if(fail>=3){ 
+                System.out.println("用户"+name+"因登入失败超过3次，被冻结");
+                return -1; 
+            }
             if(rs1.next()&&fail<3) {
                 checkLoginService.clear_fail(name);
+                System.out.println("用户"+name+"已登入");
                 return 1;
             }
             else{
                 checkLoginService.addition_fail(name,fail);
+                System.out.println("用户"+name+"密码错误，登入失败，累计次数+1");
                 return 0;
             }
         }catch (SQLException e){
@@ -60,7 +65,6 @@ public class CheckLoginServiceImpl implements CheckLoginService {
             while(rs.next()){
                 fail=rs.getInt("failure");
             }
-            //BaseDao.closeAll(conn, stmt, rs);
            return fail;
         }catch (SQLException e){
             e.printStackTrace();

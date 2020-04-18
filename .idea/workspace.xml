@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72dbaf82-307c-47c4-bea4-f49558f7ab89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Distributed-Computation/Distributed-Computation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/Distributed-Computation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/META-INF/Distributed-Computation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/CheckLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/CheckLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ServerCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ServerCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/CheckLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/CheckLoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCServerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCServerTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCServerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/ServerCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/ServerCenter.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +47,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aRjvlcnO42fa98Ahtli6XivHD9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
@@ -48,10 +59,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.18.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/log4j-1.2.17.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -88,6 +99,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.RPCClientTest">
+    <configuration name="RPCClientTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test._Fake_.RPCClientTest" />
+      <module name="Distributed-Computation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test._Fake_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RPCClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.RPC.RPCClientTest" />
       <module name="Distributed-Computation" />
@@ -127,14 +151,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="json" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.JSON.json" />
+      <module name="Distributed-Computation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.JSON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vincent_player_framt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Log4J.vincent_player_framt" />
+      <module name="Distributed-Computation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.Log4J.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.RPCClientTest" />
       <item itemvalue="Application.RPCServerTest" />
+      <item itemvalue="Application.RPCClientTest (1)" />
+      <item itemvalue="Application.json" />
+      <item itemvalue="Application.vincent_player_framt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RPCClientTest" />
         <item itemvalue="Application.RPCServerTest" />
+        <item itemvalue="Application.vincent_player_framt" />
+        <item itemvalue="Application.json" />
+        <item itemvalue="Application.RPCClientTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +214,11 @@
       <workItem from="1586964173166" duration="68000" />
       <workItem from="1586964262255" duration="293000" />
       <workItem from="1586964586397" duration="91000" />
+      <workItem from="1587053454374" duration="166000" />
+      <workItem from="1587053701968" duration="310000" />
+      <workItem from="1587138303675" duration="2538000" />
+      <workItem from="1587192871271" duration="7410000" />
+      <workItem from="1587200914130" duration="1079000" />
     </task>
     <servers />
   </component>

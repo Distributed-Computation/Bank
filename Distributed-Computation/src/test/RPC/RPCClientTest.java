@@ -2,27 +2,28 @@ package test.RPC;
 
 
 import test.Interface.CheckLoginService;
-import test._Fake_.BeanFactory;
 
-import java.io.InputStream;
 import java.net.InetSocketAddress;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
-
+//启动完RPCClientServer之后启动
 public class RPCClientTest {
     public static void main(String[] args) throws Exception {
         int loginkey=0;
+        String name=null;
+        String psw=null;
         Scanner in=new Scanner(System.in);
         
         while(loginkey==0){
-            System.out.println("输入用户名:");
-            String name=in.nextLine();
+            /*System.out.println("输入用户名:");
+            name=in.nextLine();
             System.out.println("输入密码");
-            String psw=in.nextLine();
+            psw=in.nextLine();
             System.out.println("输入结束");
-            System.out.println("验证中.....");
+            System.out.println("验证中.....");*/
+            
+            name="gcw";
+            psw="gcw";
             
             CheckLoginService service= Client.getRemoteProxyObj(
                     Class.forName("test.Interface.CheckLoginService") ,
@@ -30,10 +31,11 @@ public class RPCClientTest {
             loginkey=service.check_login(name,psw) ;
             if(loginkey==0) System.out.println("登入失败");
         }
-        in.close();
+        //in.close();
         if(loginkey==1) {
             System.out.println("登入成功");
-
+            ClientOperation operation=new ClientOperation();
+            operation.operation(name);
         }
         if(loginkey==-1) System.out.println("已被冻结");
     }

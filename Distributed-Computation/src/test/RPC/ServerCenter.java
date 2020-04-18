@@ -43,11 +43,11 @@ public class ServerCenter implements Server {
         }
 
         isRunning = true ; //服务已经启动
+        System.out.println("start  server....");
         while(true) {
             //具体的服务内容：接收客户端请求，处理请求，并返回结果
             //100 :1  1   1 ...1  -->如果想让多个 客户端请求并发执行 
             //-> 多线程
-            System.out.println("start  server....");
             //客户端每次请求一次连接（发出一次请求），则服务端 从连接池中 
             //获取一个线程对象去处理
             Socket socket = null ;
