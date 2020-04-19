@@ -11,6 +11,8 @@ public class ClientOperation {
                 Class.forName("test.Interface.UserService") ,
                 new InetSocketAddress("127.0.0.1", 9999)) ;
         String opt = "";//宁的操作
+        double num;
+        double result;
         while(!opt.equals("退出")){
             Scanner in=new Scanner(System.in);
             System.out.println("输入操作： 查询 | 取钱 | 存钱 | 退出");
@@ -22,13 +24,18 @@ public class ClientOperation {
                     break;
                 case "取钱":
                     System.out.println("输入取款金额：");
-                    double num=in.nextDouble();
-                    double result=service.withdraw(username,num);
+                    num = in.nextDouble();
+                    result = service.withdraw(username,num);
                     if(result==-1) System.out.println("取钱超过数额！");
                     else System.out.println("剩余："+result+"元");
                     break;
                 case "存钱":
                     //炸他炸他
+                    System.out.println("输入存款金额：");
+                    num = in.nextDouble();
+                    result = service.save(username,num);
+                    if(result==-1) System.out.println("存款金额应为非负数！");
+                    else System.out.println("剩余："+result+"元");
                     break;
                 case "退出":
                     System.out.println("退出成功...");
