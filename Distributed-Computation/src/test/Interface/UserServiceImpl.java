@@ -50,6 +50,30 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public double check(String name,double num) throws Exception {
+        UserServiceImpl userService = new UserServiceImpl();
+        InvocationHandler handler = new ProxyHandler(new UserServiceImpl());
+        UserService i=(UserService) Proxy.newProxyInstance(UserServiceImpl.class.getClassLoader(), UserServiceImpl.class.getInterfaces(), handler);
+        String sql="select money from infor where name=? ";
+        try (Connection conn=getConnection();
+             PreparedStatement stmt= conn.prepareStatement(sql)){
+            stmt.setString(1, name);
+            ResultSet rs1 = stmt.executeQuery();
+            double FindMoney=0.0;//用户存款
+            double remain;//余额
+            while (rs1.next()) {
+                FindMoney = rs1.getDouble("money");//获取用户存款
+            }
+            System.out.println("该用户余额为："+FindMoney+"元");
+            return remain;
+        }
+        catch (SQLException e) {
+            e.printStackTrace();
+            return 0;
+        }
+    }
+
+    @Override
     public double save(String name, double num) throws Exception {
         UserServiceImpl userService=new UserServiceImpl();
         InvocationHandler handler=new ProxyHandler(new UserServiceImpl());
