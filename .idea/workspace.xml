@@ -3,10 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="72dbaf82-307c-47c4-bea4-f49558f7ab89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/CheckLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/CheckLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/Log4J/vincent_player_framt.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Log4J/vincent_player_framt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ClientOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ClientOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/_Fake_/CheckLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/_Fake_/CheckLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/CheckLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/CheckLoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Log4J/vincent_player_framt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Log4J/vincent_player_framt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/ClientOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/ClientOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/_Fake_/CheckLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/_Fake_/CheckLoginServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/log4j-1.2.17.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Bank" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -213,6 +222,12 @@
       <workItem from="1587192871271" duration="7410000" />
       <workItem from="1587200914130" duration="1079000" />
       <workItem from="1587202093588" duration="395000" />
+      <workItem from="1587267681827" duration="1125000" />
+      <workItem from="1587274548552" duration="771000" />
+      <workItem from="1587280217546" duration="261000" />
+      <workItem from="1587281025702" duration="1789000" />
+      <workItem from="1587287162422" duration="612000" />
+      <workItem from="1587298591696" duration="3504000" />
     </task>
     <servers />
   </component>

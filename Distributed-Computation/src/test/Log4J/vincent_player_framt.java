@@ -2,6 +2,8 @@ package test.Log4J;
 
 import org.apache.log4j.*;
 
+import java.math.BigDecimal;
+
 public class vincent_player_framt {
     private static Logger logger = Logger.getLogger(vincent_player_framt.class);
 
@@ -13,13 +15,10 @@ public class vincent_player_framt {
         // 记录error级别的信息  
         logger.error("This is error message.");
     }
-    public void inform(String name,double money,double num){
-        String s="用户"+name+"有存款"+money+"元。取钱"+num+"元。余额"+(money-num)+"元";
+    public void inform(String name, BigDecimal money, BigDecimal num,double remain){
+        String s="用户"+name+"有存款"+money+"元。取钱"+num+"元。余额"+remain+"元";
         logger.info(s);
     }
-    public void inforS(String name,double money,double num){
-        String s="用户"+name+"有存款"+money+"元。存钱"+num+"元。余额"+(money+num)+"元";
-        logger.info(s);
-    }
+    
     
 }

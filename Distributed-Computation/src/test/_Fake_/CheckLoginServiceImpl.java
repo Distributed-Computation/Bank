@@ -16,11 +16,11 @@ public class CheckLoginServiceImpl implements CheckLoginService {
     @Override
     //检查登入
     public void check_login(Object target, Method method, Object[] args) {
-        String s = "";
+        /*String s = "";
         for (int i =0;i<args.length;i++){
             s+=args[i];
         }
-        System.out.println(s);
+        System.out.println(s);*/
         //String name=s[0],password=s[1];
         //System.out.println(name+password);
         /*System.out.println(target.getClass().getSimpleName() +

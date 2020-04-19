@@ -22,10 +22,6 @@ public class RPCClientTest {
             System.out.println("输入结束");
             System.out.println("验证中.....");
             
-            //把上面输入注释，把下面注释删除，偷懒0V0
-            /*name="gcw";
-            psw="gcw";*/
-            
             //反射
             CheckLoginService service= Client.getRemoteProxyObj(
                     Class.forName("test.Interface.CheckLoginService") ,
