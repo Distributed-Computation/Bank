@@ -34,7 +34,7 @@ public class testJSON {
     }
 
     public static void readServer(String path){
-        //负载均衡?
+
         OpenFile(path);
 
         arr = obj.getJSONArray("server");

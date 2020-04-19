@@ -2,6 +2,8 @@ package test.RPC;
 
 
 import test.Interface.CheckLoginService;
+import test.JSON.RoundRobin;
+import test.JSON.ServerSite;
 
 import java.net.InetSocketAddress;
 import java.util.Scanner;
@@ -21,11 +23,15 @@ public class RPCClientTest {
             psw=in.nextLine();
             System.out.println("输入结束");
             System.out.println("验证中.....");
+
+            //轮询获得服务器地址和端口
+            RoundRobin robin = new RoundRobin();
+            ServerSite site = robin.testRoundRobin();
             
             //反射
             CheckLoginService service= Client.getRemoteProxyObj(
                     Class.forName("test.Interface.CheckLoginService") ,
-                    new InetSocketAddress("127.0.0.1", 9999)) ;
+                    new InetSocketAddress(site.getHost(), site.getPort())) ;
             loginkey=service.check_login(name,psw) ;
             if(loginkey==0) System.out.println("登入失败");
         }
@@ -38,3 +44,4 @@ public class RPCClientTest {
         if(loginkey==-1) System.out.println("已被冻结");
     }
 }
+

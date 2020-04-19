@@ -1,16 +1,12 @@
 {
 	"server":[
 			{
-				"host":"localhost1",
-				"port":8000
-			},
-			{
-				"host":"localhost2",
-				"port":8001
+				"host":"localhost",
+				"port":9999
 			},
 			{
 				"host":"127.0.0.1",
 				"port":9999
 			}
-		]
+		    ]
 }
