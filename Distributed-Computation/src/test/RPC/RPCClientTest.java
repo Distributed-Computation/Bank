@@ -15,6 +15,10 @@ public class RPCClientTest {
         String name=null;
         String psw=null;
         Scanner in=new Scanner(System.in);
+
+        //轮询获得服务器地址和端口
+        RoundRobin robin = new RoundRobin();
+        ServerSite site = robin.testRoundRobin();
         
         while(loginkey==0){
             System.out.println("输入用户名:");
@@ -24,10 +28,8 @@ public class RPCClientTest {
             System.out.println("输入结束");
             System.out.println("验证中.....");
 
-            //轮询获得服务器地址和端口
-            RoundRobin robin = new RoundRobin();
-            ServerSite site = robin.testRoundRobin();
-            
+//            System.out.println(site.getHost()+site.getPort());
+
             //反射
             CheckLoginService service= Client.getRemoteProxyObj(
                     Class.forName("test.Interface.CheckLoginService") ,
@@ -39,7 +41,7 @@ public class RPCClientTest {
         if(loginkey==1) {
             System.out.println("登入成功");
             ClientOperation operation=new ClientOperation();
-            operation.operation(name);
+            operation.operation(name,site.getHost(),site.getPort());
         }
         if(loginkey==-1) System.out.println("已被冻结");
     }

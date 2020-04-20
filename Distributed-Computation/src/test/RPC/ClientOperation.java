@@ -1,15 +1,17 @@
 package test.RPC;
 
 import test.Interface.UserService;
+import test.JSON.RoundRobin;
+import test.JSON.ServerSite;
 
 import java.net.InetSocketAddress;
 import java.util.Scanner;
 
 public class ClientOperation {
-    public void operation(String username) throws Exception{
+    public void operation(String username,String Host,int Port) throws Exception{
         UserService service= Client.getRemoteProxyObj(
                 Class.forName("test.Interface.UserService") ,
-                new InetSocketAddress("127.0.0.1", 9999)) ;
+                new InetSocketAddress(Host, Port)) ;
         String opt = "";
         double num;
         double result;
