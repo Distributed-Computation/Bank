@@ -28,6 +28,8 @@ public class RPCClientTest {
             System.out.println("输入结束");
             System.out.println("验证中.....");
 
+            /*name="gcw";
+            psw="gcw";*/
 //            System.out.println(site.getHost()+site.getPort());
 
             //反射

@@ -3,19 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="72dbaf82-307c-47c4-bea4-f49558f7ab89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Interface/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/Log4J/vincent_player_framt.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/Log4J/vincent_player_framt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ClientOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ClientOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/JSON/json.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/JSON/json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ProxyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/ProxyHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/RPC/RPCClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/_Fake_/CheckLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Distributed-Computation/src/test/_Fake_/CheckLoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/CheckLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/CheckLoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/_Fake_/BeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/_Fake_/CheckLoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/_Fake_/CheckLoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/_Fake_/ProxyFactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/_Fake_/RPCClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distributed-Computation/src/test/_Fake_/config.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Interface/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Log4J/vincent_player_framt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/Log4J/vincent_player_framt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/JSON/RoundRobin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/JSON/RoundRobin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/JSON/ServerList.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/JSON/ServerList.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/JSON/json.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/JSON/json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/JSON/myThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/JSON/myThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/ClientOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/ClientOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/ProxyHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/ProxyHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/RPC/RPCClientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/_Fake_/CheckLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Distributed-Computation/test/_Fake_/CheckLoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/_Fake_/BeanFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/_Fake_/CheckLoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/_Fake_/CheckLoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/_Fake_/ProxyFactoryBean$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/_Fake_/ProxyFactoryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/_Fake_/RPCClientTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Distributed-Computation/test/_Fake_/config.properties" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,31 +72,34 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Bank" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\_Fake_AOPBean" />
-      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\RPC" />
-      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\AOPBean" />
-      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\ttest" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test._Fake_" />
-      <recent name="test._Fake_AOPBean" />
-      <recent name="test.Demo" />
-      <recent name="test.RPC" />
-      <recent name="test.AOP" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\Bank\Distributed-Computation\.idea" />
+      <recent name="D:\Github\Bank\Distributed-Computation\src" />
       <recent name="D:\idea project\Bank\Distributed-Computation\src\test\Demo" />
       <recent name="D:\idea project\Bank\Distributed-Computation\src\test\RPC" />
       <recent name="D:\idea project\Bank\Distributed-Computation\.idea" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.Interface" />
+      <recent name="test.RPC" />
+      <recent name="" />
+      <recent name="test._Fake_" />
+      <recent name="test._Fake_AOPBean" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\Bank\Distributed-Computation\src" />
+      <recent name="D:\Github\Bank\Distributed-Computation\src\test" />
+      <recent name="D:\Github\Bank\Distributed-Computation\src\test\RPC" />
+      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\_Fake_AOPBean" />
+      <recent name="D:\idea project\Bank\Distributed-Computation\src\test\RPC" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -100,23 +114,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RPCClientTest">
-    <configuration name="RPCClientTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test._Fake_.RPCClientTest" />
-      <module name="Distributed-Computation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test._Fake_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.testGUI">
     <configuration name="RPCClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.RPC.RPCClientTest" />
       <module name="Distributed-Computation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Distributed-Computation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.DB.*" />
@@ -143,6 +145,7 @@
     <configuration name="RPCServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.RPC.RPCServerTest" />
       <module name="Distributed-Computation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Distributed-Computation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.DB.*" />
@@ -156,6 +159,7 @@
     <configuration name="json" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.JSON.json" />
       <module name="Distributed-Computation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Distributed-Computation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.JSON.*" />
@@ -166,9 +170,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.GUI.testGUI" />
+      <module name="Distributed-Computation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Distributed-Computation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="vincent_player_framt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Log4J.vincent_player_framt" />
       <module name="Distributed-Computation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Distributed-Computation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.Log4J.*" />
@@ -182,17 +201,17 @@
     <list>
       <item itemvalue="Application.RPCClientTest" />
       <item itemvalue="Application.RPCServerTest" />
-      <item itemvalue="Application.RPCClientTest (1)" />
       <item itemvalue="Application.json" />
       <item itemvalue="Application.vincent_player_framt" />
+      <item itemvalue="Application.testGUI" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RPCClientTest" />
+        <item itemvalue="Application.testGUI" />
         <item itemvalue="Application.RPCServerTest" />
+        <item itemvalue="Application.RPCClientTest" />
         <item itemvalue="Application.vincent_player_framt" />
         <item itemvalue="Application.json" />
-        <item itemvalue="Application.RPCClientTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +247,10 @@
       <workItem from="1587281025702" duration="1789000" />
       <workItem from="1587287162422" duration="612000" />
       <workItem from="1587298591696" duration="3504000" />
+      <workItem from="1587439940140" duration="836000" />
+      <workItem from="1587442653384" duration="3001000" />
+      <workItem from="1587460373768" duration="6371000" />
+      <workItem from="1587467453218" duration="206000" />
     </task>
     <servers />
   </component>

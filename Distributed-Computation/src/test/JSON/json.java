@@ -137,7 +137,7 @@ class myThread extends Thread{
             System.out.println("登入成功");
             ClientOperation operation=new ClientOperation();
             try {
-                operation.operation(name);
+                //operation.operation(name);
             } catch (Exception e) {
                 e.printStackTrace();
             }
