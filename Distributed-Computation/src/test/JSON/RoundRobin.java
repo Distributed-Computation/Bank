@@ -20,6 +20,24 @@ public class RoundRobin {
     testJSON testjson = new testJSON();
     List<ServerSite> sites = testjson.readServers(path);
 
+    public static Integer getRandomNumber(Integer max) {
+        Random rd = new Random();
+        return rd.nextInt(max);
+    }
+
+    public int ServerNum(){
+        return sites.size();
+    }
+
+    public ServerSite testRandom(){
+        ServerSite s = new ServerSite();
+        int temp = getRandomNumber(sites.size());
+        s.setName(sites.get(temp).getName());
+        s.setHost(sites.get(temp).getHost());
+        s.setPort(sites.get(temp).getPort());
+        return s;
+    }
+
     public ServerSite testRoundRobin() {
         ServerSite s = new ServerSite();
 
@@ -27,6 +45,7 @@ public class RoundRobin {
             if (index >= sites.size()) {
                 index = 0;
             }
+            s.setName(sites.get(index).getName());
             s.setHost(sites.get(index).getHost());
             s.setPort(sites.get(index).getPort());
             System.out.println("index: " + index + ",服务器：" + s.getHost() + ",端口：" + s.getPort());

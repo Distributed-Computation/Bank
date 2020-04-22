@@ -114,6 +114,7 @@ public class CheckFrame extends JFrame implements ActionListener {
             this.setVisible(false);
             //返回登陆界面
             MainFrame frame = new MainFrame(user, host, port);
+            frame.setLocationRelativeTo(null);
         }
     }
 }

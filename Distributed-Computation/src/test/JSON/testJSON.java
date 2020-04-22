@@ -53,6 +53,7 @@ public class testJSON {
 
         for(int i = 0;i < arr.size();i++){
             ServerSite site = new ServerSite();
+            site.setName(arr.getJSONObject(i).getString("name"));
             site.setHost(arr.getJSONObject(i).getString("host"));
             site.setPort(arr.getJSONObject(i).getInteger("port"));
             result.add(site);

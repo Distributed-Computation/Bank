@@ -111,14 +111,17 @@ public class MainFrame extends JFrame implements ActionListener {
         if(str.equals("查询 Check")) {
             this.setVisible(false);
             CheckFrame frame = new CheckFrame(user,host,port);
+            frame.setLocationRelativeTo(null);
         }
         else if (str.equals("取钱 Withdraw")){
             this.setVisible(false);
             WithdrawFrame frame = new WithdrawFrame(user,host,port);
+            frame.setLocationRelativeTo(null);
         }
         else if (str.equals("存钱 Save")){
             this.setVisible(false);
             SaveFrame frame = new SaveFrame(user,host,port);
+            frame.setLocationRelativeTo(null);
         }
         else if (str.equals("退出 Exit"))
         {
@@ -126,6 +129,7 @@ public class MainFrame extends JFrame implements ActionListener {
             this.setVisible(false);
             //返回登陆界面
             LoginFrame frame = new LoginFrame();
+            frame.setLocationRelativeTo(null);
         }
     }
 }

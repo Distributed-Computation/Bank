@@ -1,6 +1,7 @@
 package test.GUI;
 
 import test.Interface.CheckLoginService;
+import test.Interface.MyAspect;
 import test.JSON.RoundRobin;
 import test.JSON.ServerSite;
 import test.RPC.Client;
@@ -154,6 +155,8 @@ public class LoginFrame extends JFrame implements ActionListener {
         //获取按钮上显示的文本
         String str = bt.getText();
 
+        int serverNum;
+
         int loginkey = 0;
 
         if(str.equals("登录"))
@@ -167,39 +170,75 @@ public class LoginFrame extends JFrame implements ActionListener {
 
                 //轮询获得服务器地址和端口
                 RoundRobin robin = new RoundRobin();
-                ServerSite site = robin.testRoundRobin();
+//                serverNum = robin.ServerNum();
+                serverNum = 10;
 
-                //反射
-                CheckLoginService service= null;
-                try {
-                    service = Client.getRemoteProxyObj(
-                            Class.forName("test.Interface.CheckLoginService") ,
-                            new InetSocketAddress(site.getHost(), site.getPort()));
-                } catch (ClassNotFoundException ex) {
-                    ex.printStackTrace();
-                }
-                try {
-                    loginkey=service.check_login(user,pwd) ;
-                } catch (Exception ex) {
-                    ex.printStackTrace();
+                //获取切面检测是否正常连接到服务器
+                MyAspect aspect = new MyAspect();
+                boolean answer = false;
+                //正确的地址
+                ServerSite trueSite = null;
+
+                while (true){
+//                    ServerSite site = robin.testRoundRobin();
+                    ServerSite site = robin.testRandom();
+                    answer = aspect.testServerConnect(site.getHost(),site.getPort());
+
+                    if (answer){
+                        trueSite = site;
+                        System.out.println("服务器 "+site.getName()+" 通过测试连接，可用");
+                        break;
+                    }
+                    if (serverNum==1) break;
+                    serverNum--;
                 }
 
-                if(loginkey==1)
-                {
-                    //隐藏当前登录窗口
-                    this.setVisible(false);
-                    //验证成功创建一个主窗口
-                    MainFrame frame = new MainFrame(user,site.getHost(),site.getPort());
-                }
-                else if (loginkey==0)
-                {
-                    //如果错误则弹出一个显示框
-                    JOptionPane pane = new JOptionPane("登入失败!");
-                    JDialog dialog  = pane.createDialog(this,"警告");
-                    dialog.show();
-                }else if (loginkey==-1){
-                    //如果输入三次错误则冻结账户
-                    JOptionPane pane = new JOptionPane("账户已冻结！");
+//                ServerSite site = robin.testRoundRobin();
+                if (trueSite!=null){
+                    System.out.println("地址成功转接:"+trueSite.getHost());
+                    //反射
+                    CheckLoginService service= null;
+                    try {
+                        service = Client.getRemoteProxyObj(
+                                Class.forName("test.Interface.CheckLoginService") ,
+                                new InetSocketAddress(trueSite.getHost(), trueSite.getPort()));
+                    } catch (ClassNotFoundException ex) {
+                        ex.printStackTrace();
+                    }
+                    try {
+                        loginkey=service.check_login(user,pwd) ;
+                        System.out.println("你的登陆密钥状态为："+loginkey);
+                    } catch (Exception ex) {
+                        ex.printStackTrace();
+                    }
+
+                    if(loginkey==1)
+                    {
+                        //如果错误则弹出一个显示框
+                        JOptionPane pane = new JOptionPane("服务器："+trueSite.getName()+" 将为您服务！");
+                        JDialog dialog  = pane.createDialog(this,"连接成功");
+                        dialog.show();
+                        //隐藏当前登录窗口
+                        this.setVisible(false);
+                        //验证成功创建一个主窗口
+                        MainFrame frame = new MainFrame(user,trueSite.getHost(),trueSite.getPort());
+                        frame.setLocationRelativeTo(null);
+                    }
+                    else if (loginkey==0)
+                    {
+                        //如果错误则弹出一个显示框
+                        JOptionPane pane = new JOptionPane("登入失败!");
+                        JDialog dialog  = pane.createDialog(this,"警告");
+                        dialog.show();
+                    }else if (loginkey==-1){
+                        //如果输入三次错误则冻结账户
+                        JOptionPane pane = new JOptionPane("账户已冻结！");
+                        JDialog dialog  = pane.createDialog(this,"警告");
+                        dialog.show();
+                    }
+                }else {
+                    //没有服务器在线
+                    JOptionPane pane = new JOptionPane("无服务器在线!");
                     JDialog dialog  = pane.createDialog(this,"警告");
                     dialog.show();
                 }
